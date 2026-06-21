@@ -1,0 +1,34 @@
+{
+    "id": "LSZH",
+    "type": "Tabbed",
+    "tabs": [
+        {
+            "label": "ADC",
+            "page": {
+                "rows": 4,
+                "keys": [
+                    {
+                        "label": ["LSZH", "Delivery"],
+                        "station_id": "LSZH_DEL"
+                    },
+                    {
+                        "label": ["LSZH", "Ground"],
+                        "station_id": "LSZH_GND"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "APP",
+            "page": {
+                "rows": 4,
+                "keys": [
+                    {
+                        "label": ["LSZH", "Arrival"],
+                        "station_id": "LSZH_APP"
+                    }
+                ]
+            }
+        }
+    ]
+}

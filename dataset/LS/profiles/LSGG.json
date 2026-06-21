@@ -1,0 +1,46 @@
+{
+    "id": "LSZH",
+    "type": "Tabbed",
+    "tabs": [
+        {
+            "label": "ADC",
+            "page": {
+                "rows": 3,
+                "keys": [
+                    {
+                        "label": ["LSGG", "Ground"],
+                        "station_id": "LSGG_GND"
+                    },
+                    {
+                        "label": ["LSGG", "Apron"],
+                        "station_id": "LSGG_A_GND"
+                    },
+                    {
+                        "label": ["LSGG", "Tower"],
+                        "station_id": "LSGG_TWR"
+                    }
+                ]
+            }
+        },
+        {
+            "label": "APP",
+            "page": {
+                "rows": 3,
+                "keys": [
+                    {
+                        "label": ["LSGG", "Arrival"],
+                        "station_id": "LSGG_APP"
+                    },
+                                        {
+                        "label": ["LSGG", "Final"],
+                        "station_id": "LSGG_F_APP"
+                    },
+                                        {
+                        "label": ["LSGG", "Departure"],
+                        "station_id": "LSGG_DEP"
+                    }
+                ]
+            }
+        }
+    ]
+}
