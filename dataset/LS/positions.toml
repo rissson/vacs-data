@@ -7,6 +7,7 @@ id = "LSAS_CTR"
 prefixes = ["LSAS"]
 frequency = "135.015"
 facility_type = "CTR"
+profile_id = "LSAZ"
 
 [[positions]]
 id = "LSAS_I_CTR"
