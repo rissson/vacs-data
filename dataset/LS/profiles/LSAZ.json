@@ -196,7 +196,17 @@
                                         "ARFA"
                                     ],
                                     "color": "snow",
-                                    "size": 7
+                                    "size": 7,
+                                    "page": {
+                                        "rows": 6,
+                                        "client_page": {
+                                            "include": [
+                                                "LSFA_APP",
+                                                "EDNY_*",
+                                                "LSZR_*"
+                                            ]
+                                        }
+                                    }
                                 }
                             ]
                         }
@@ -228,13 +238,13 @@
                             "label": [
                                 "LSZA"
                             ],
-                            "color": "mint",
+                            "color": "snow",
                             "size": 6.25,
                             "page": {
                                 "rows": 6,
                                 "client_page": {
                                     "include": [
-                                        "LSZA*"
+                                        "LSZA_*"
                                     ]
                                 }
                             }
@@ -275,14 +285,30 @@
                                 "EDJA"
                             ],
                             "color": "clay",
-                            "size": 6.25
+                            "size": 6.25,
+                            "page": {
+                                "rows": 6,
+                                "client_page": {
+                                    "include": [
+                                        "EDJA_*"
+                                    ]
+                                }
+                            }
                         },
                         {
                             "label": [
                                 "LOWI"
                             ],
                             "color": "taupe",
-                            "size": 6.25
+                            "size": 6.25,
+                            "page": {
+                                "rows": 6,
+                                "client_page": {
+                                    "include": [
+                                        "LOWI*_CTR"
+                                    ]
+                                }
+                            }
                         }
                     ]
                 },
