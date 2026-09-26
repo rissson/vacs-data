@@ -14,8 +14,7 @@
             "children": [
                 {
                     "label": [
-                        "LFLL",
-                        "APP"
+                        "LFLL"
                     ],
                     "color": "cadet",
                     "size": 6.25,
@@ -23,15 +22,14 @@
                         "rows": 6,
                         "client_page": {
                             "include": [
-                                "LFLL*_APP"
+                                "LFLL_*"
                             ]
                         }
                     }
                 },
                 {
                     "label": [
-                        "LFLB",
-                        "APP"
+                        "LFLB"
                     ],
                     "color": "cadet",
                     "size": 6.25,
@@ -39,15 +37,14 @@
                         "rows": 6,
                         "client_page": {
                             "include": [
-                                "LFLB*_APP"
+                                "LFLB_*"
                             ]
                         }
                     }
                 },
                 {
                     "label": [
-                        "LFLC",
-                        "APP"
+                        "LFLC"
                     ],
                     "color": "cadet",
                     "size": 6.25,
@@ -55,7 +52,7 @@
                         "rows": 6,
                         "client_page": {
                             "include": [
-                                "LFLC*_APP"
+                                "LFLC_*"
                             ]
                         }
                     }
@@ -107,7 +104,8 @@
                         },
                         {
                             "label": [
-                                "LFSB_APP"
+                                "LFSB",
+                                "APP"
                             ],
                             "color": "azure",
                             "size": 6.25,
@@ -142,14 +140,6 @@
                                 {
                                     "label": [
                                         "LSAG",
-                                        "E_CTR"
-                                    ],
-                                    "color": "lilac",
-                                    "size": 9
-                                },
-                                {
-                                    "label": [
-                                        "LSAG",
                                         "N_CTR"
                                     ],
                                     "color": "lilac",
@@ -159,6 +149,14 @@
                                     "label": [
                                         "LSAG",
                                         "S_CTR"
+                                    ],
+                                    "color": "lilac",
+                                    "size": 9
+                                },
+                                {
+                                    "label": [
+                                        "LSAG",
+                                        "E_CTR"
                                     ],
                                     "color": "lilac",
                                     "size": 9
