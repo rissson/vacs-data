@@ -88,7 +88,8 @@
                 },
                 {
                     "label": [
-                        "LSZB"
+                        "LSZB",
+                        "LSZG"
                     ],
                     "color": "snow",
                     "size": 5,
@@ -149,6 +150,9 @@
                                 "station_id": "LSAG_CTR"
                             },
                             {
+                                "label": []
+                            },
+                            {
                                 "label": [
                                     "LSAG",
                                     "E CTR"
@@ -163,11 +167,20 @@
                                 "station_id": "LSAG_S_CTR"
                             },
                             {
+                                "label": []
+                            },
+                            {
+                                "label": []
+                            },
+                            {
                                 "label": [
                                     "LSAG",
                                     "N CTR"
                                 ],
                                 "station_id": "LSAG_N_CTR"
+                            },
+                            {
+                                "label": []
                             }
                         ]
                     }
@@ -580,7 +593,9 @@
                         },
                         {
                             "label": [
-                                "ARFA"
+                                "ARFA",
+                                "LSZR",
+                                "EDNY"
                             ],
                             "color": "snow",
                             "size": 5,
@@ -629,21 +644,16 @@
                     "children": [
                         {
                             "label": [
-                                "MIL"
+                                "Majors"
                             ],
                             "size": 5,
                             "page": {
                                 "rows": 6,
                                 "client_page": {
                                     "include": [
-                                        "LSM*"
+                                        "LSGG*"
                                     ],
-                                    "priority": [
-                                        "LS*_APP",
-                                        "LS*_TWR",
-                                        "LS*_GND",
-                                        "LS*_DEL"
-                                    ]
+                                    "grouping": "Icao"
                                 }
                             }
                         },
@@ -670,12 +680,22 @@
                                         "LSZH*",
                                         "LSZR*"
                                     ],
-                                    "priority": [
-                                        "LS*_APP",
-                                        "LS*_TWR",
-                                        "LS*_GND",
-                                        "LS*_DEL"
-                                    ]
+                                    "grouping": "Icao"
+                                }
+                            }
+                        },
+                        {
+                            "label": [
+                                "MIL"
+                            ],
+                            "size": 5,
+                            "page": {
+                                "rows": 6,
+                                "client_page": {
+                                    "include": [
+                                        "LSM*"
+                                    ],
+                                    "grouping": "Icao"
                                 }
                             }
                         },
@@ -715,7 +735,8 @@
                                         "LS*_GND",
                                         "*_GND",
                                         "LS*"
-                                    ]
+                                    ],
+                                    "grouping": "FirAndIcao"
                                 }
                             }
                         }
