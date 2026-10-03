@@ -14,6 +14,7 @@ id = "LSAS_I_CTR"
 prefixes = ["LSAS"]
 frequency = "124.700"
 facility_type = "CTR"
+profile_id = "LSAZ"
 
 # LSAG
 
