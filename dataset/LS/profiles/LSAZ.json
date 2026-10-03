@@ -220,7 +220,8 @@
                                         "LFEE_RME_CTR",
                                         "LFEE_CTR",
                                         "PAR_CTR"
-                                    ]
+                                    ],
+                                    "grouping": "None"
                                 }
                             }
                         },
@@ -244,7 +245,8 @@
                                         "EDDG_SH_CTR",
                                         "EDDG_CS_CTR",
                                         "EDDG_CSH_CTR"
-                                    ]
+                                    ],
+                                    "grouping": "None"
                                 }
                             }
                         },
@@ -264,7 +266,8 @@
                                         "EDUU_CW_CTR",
                                         "EDUU_ALP_CTR",
                                         "EDUU_AMM_CTR"
-                                    ]
+                                    ],
+                                    "grouping": "None"
                                 }
                             }
                         },
@@ -283,7 +286,8 @@
                                         "EDMM_STA_CTR",
                                         "EDMM_TRU_CTR",
                                         "EDMM_RDG_CTR"
-                                    ]
+                                    ],
+                                    "grouping": "None"
                                 }
                             }
                         }
@@ -486,7 +490,8 @@
                                         "LIMM_ES5_CTR",
                                         "LIMM_WS5_CTR",
                                         "LIMM_U_CTR"
-                                    ]
+                                    ],
+                                    "grouping": "None"
                                 }
                             }
                         },
@@ -547,7 +552,8 @@
                                         "LIPP_NE6_CTR",
                                         "LIPP_NE8_CTR",
                                         "LIMM_U_CTR"
-                                    ]
+                                    ],
+                                    "grouping": "None"
                                 }
                             }
                         }
@@ -674,6 +680,7 @@
                                     "exclude": [
                                         "LSFA*",
                                         "LSGG*",
+                                        "LSM*",
                                         "LSZA*",
                                         "LSZB*",
                                         "LSZG*",

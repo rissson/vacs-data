@@ -307,11 +307,11 @@
                                 "rows": 6,
                                 "client_page": {
                                     "include": [
+                                        "LIMM_EN2_CTR",
                                         "LIMM_WN2_CTR",
                                         "LIMM_WS2_CTR",
-                                        "LIMM_WS5_CTR",
-                                        "LIMM_EN2_CTR",
                                         "LIMM_ES5_CTR",
+                                        "LIMM_WS5_CTR",
                                         "LIMM_U_CTR"
                                     ],
                                     "grouping": "None"
