@@ -1,47 +1,43 @@
 {
-  "id": "LFBB-FMP",
+  "id": "OK-FMP",
   "type": "Tabbed",
   "tabs": [
     {
-      "label": ["SUP", "FMP"],
+      "label": ["FMP"],
       "page": {
         "rows": 6,
         "client_page": {
-          "include": ["*FMP"],
-          "exclude": [],
-          "priority": ["*_FMP"],
-          "frequencies": "HideAll",
-          "grouping": "None"
-        }
-      }
-    },
-    {
-      "label": ["LFFF", "LFRR"],
-      "page": {
-        "rows": 10,
-        "client_page": {
           "include": [
-            "PAR_*",
-            "LFRR_*",
-            "LFR*_*",
-            "LFO*_*",
-            "LFP*_*",
-            "LFQ*_*"
+            "OKAC*FMP",
+            "ORBB*FMP",
+            "ORBI*FMP",
+            "OKKK*FMP",
+            "OR*FMP",
+            "OK*FMP",
+            "OK*_P_*",
+            "OR*_P_*",
+
+            "OE*_FMP",
+            "OB*_FMP",
+            "TEH*_FMP",
+            "OI*_FMP",
+            "OT*_FMP",
+            "OM*_FMP"
           ],
-          "exclude": ["*FMP"],
-          "priority": ["*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
+          "exclude": [],
+          "priority": ["OKAC*", "OK*", "ORBB*", "OR*", "*_FMP"],
           "frequencies": "HideAll",
           "grouping": "None"
         }
       }
     },
     {
-      "label": "LFMM",
+      "label": "Kuwait",
       "page": {
         "rows": 10,
         "client_page": {
-          "include": ["LFMM_*", "LFK*_*", "LFL*_*", "LFM*_*", "LFT*_*"],
-          "exclude": ["*FMP"],
+          "include": ["OKAC_*", "OKKK_*", "OKAJ_*", "OKAS_*", "OR*"],
+          "exclude": ["*FMP", "OK*_P_*"],
           "priority": ["*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
           "frequencies": "HideAll",
           "grouping": "None"
@@ -53,7 +49,7 @@
       "page": {
         "rows": 10,
         "client_page": {
-          "include": ["LE*"],
+          "include": ["GULF", "OE*", "OR*", "TEH*", "OI*", "OB*"],
           "exclude": ["*FMP"],
           "priority": ["*_FSS", "*_CTR", "*_APP", "*_TWR", "*_GND", "*_DEL"],
           "frequencies": "HideAll",
