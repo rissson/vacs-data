@@ -124,6 +124,12 @@
                                     "TWR"
                                 ],
                                 "station_id": "LSZG_TWR"
+                            },
+                            {
+                                "label": []
+                            },
+                            {
+                                "label": []
                             }
                         ]
                     }
@@ -385,6 +391,38 @@
                                                     "DEL"
                                                 ],
                                                 "station_id": "LSZH_DEL"
+                                            },
+                                            {
+                                                "label": []
+                                            },
+                                            {
+                                                "label": []
+                                            },
+                                            {
+                                                "label": []
+                                            },
+                                            {
+                                                "label": []
+                                            },
+                                            {
+                                                "label": []
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSMD",
+                                                    "APP"
+                                                ],
+                                                "station_id": "LSMD_APP"
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSMD",
+                                                    "TWR"
+                                                ],
+                                                "station_id": "LSMD_TWR"
+                                            },
+                                            {
+                                                "label": []
                                             }
                                         ]
                                     }
@@ -599,6 +637,26 @@
                     "children": [
                         {
                             "label": [
+                                "MIL"
+                            ],
+                            "size": 5,
+                            "page": {
+                                "rows": 6,
+                                "client_page": {
+                                    "include": [
+                                        "LSM*"
+                                    ],
+                                    "priority": [
+                                        "LS*_APP",
+                                        "LS*_TWR",
+                                        "LS*_GND",
+                                        "LS*_DEL"
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "label": [
                                 "Minors"
                             ],
                             "size": 5,
@@ -619,6 +677,12 @@
                                         "LSZG*",
                                         "LSZH*",
                                         "LSZR*"
+                                    ],
+                                    "priority": [
+                                        "LS*_APP",
+                                        "LS*_TWR",
+                                        "LS*_GND",
+                                        "LS*_DEL"
                                     ]
                                 }
                             }
