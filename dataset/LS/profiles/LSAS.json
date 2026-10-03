@@ -1,5 +1,5 @@
 {
-    "id": "LSAZ",
+    "id": "LSAS",
     "type": "Geo",
     "direction": "row",
     "padding": 0.25,
@@ -12,178 +12,38 @@
             "children": [
                 {
                     "label": [
-                        "LFSB"
+                        "LFLL"
                     ],
                     "color": "cadet",
                     "size": 5,
                     "page": {
-                        "rows": 3,
-                        "keys": [
-                            {
-                                "label": [
-                                    "LFSB",
-                                    "C APP"
-                                ],
-                                "station_id": "LFSB_C_APP"
-                            },
-                            {
-                                "label": [
-                                    "LFSB",
-                                    "APP"
-                                ],
-                                "station_id": "LFSB_APP"
-                            },
-                            {
-                                "label": []
-                            },
-                            {
-                                "label": [
-                                    "LFSB",
-                                    "TWR"
-                                ],
-                                "station_id": "LFSB_TWR"
-                            },
-                            {
-                                "label": [
-                                    "LFSB",
-                                    "GND"
-                                ],
-                                "station_id": "LFSB_GND"
-                            },
-                            {
-                                "label": [
-                                    "LFSB",
-                                    "DEL"
-                                ],
-                                "station_id": "LFSB_DEL"
-                            }
-                        ]
-                    }
-                },
-                {
-                    "label": [
-                        "LSAS"
-                    ],
-                    "color": "blush",
-                    "size": 5,
-                    "page": {
                         "rows": 2,
                         "keys": [
                             {
                                 "label": [
-                                    "LSAS",
-                                    "CTR"
+                                    "LFLL",
+                                    "VW APP"
                                 ],
-                                "station_id": "LSAS_CTR"
+                                "station_id": "LFLL_VW_APP"
                             },
                             {
                                 "label": [
-                                    "LSAS",
-                                    "I_CTR"
+                                    "LFLL",
+                                    "VE APP"
                                 ],
-                                "station_id": "LSAS_I_CTR"
+                                "station_id": "LFLL_VE_APP"
                             }
                         ]
                     }
                 },
                 {
                     "label": [
-                        "LSZB",
-                        "LSZG"
+                        "LFLB",
+                        "APP"
                     ],
-                    "color": "snow",
+                    "color": "cadet",
                     "size": 5,
-                    "page": {
-                        "rows": 3,
-                        "keys": [
-                            {
-                                "label": [
-                                    "LSZB",
-                                    "APP"
-                                ],
-                                "station_id": "LSZB_APP"
-                            },
-                            {
-                                "label": [
-                                    "LSZB",
-                                    "TWR"
-                                ],
-                                "station_id": "LSZB_TWR"
-                            },
-                            {
-                                "label": [
-                                    "LSZB",
-                                    "DEL"
-                                ],
-                                "station_id": "LSZB_DEL"
-                            },
-                            {
-                                "label": [
-                                    "LSZG",
-                                    "TWR"
-                                ],
-                                "station_id": "LSZG_TWR"
-                            },
-                            {
-                                "label": []
-                            },
-                            {
-                                "label": []
-                            }
-                        ]
-                    }
-                },
-                {
-                    "label": [
-                        "LSAG"
-                    ],
-                    "color": "blush",
-                    "size": 5,
-                    "page": {
-                        "rows": 2,
-                        "keys": [
-                            {
-                                "label": [
-                                    "LSAG",
-                                    "CTR"
-                                ],
-                                "station_id": "LSAG_CTR"
-                            },
-                            {
-                                "label": []
-                            },
-                            {
-                                "label": [
-                                    "LSAG",
-                                    "E CTR"
-                                ],
-                                "station_id": "LSAG_E_CTR"
-                            },
-                            {
-                                "label": [
-                                    "LSAG",
-                                    "S CTR"
-                                ],
-                                "station_id": "LSAG_S_CTR"
-                            },
-                            {
-                                "label": []
-                            },
-                            {
-                                "label": []
-                            },
-                            {
-                                "label": [
-                                    "LSAG",
-                                    "N CTR"
-                                ],
-                                "station_id": "LSAG_N_CTR"
-                            },
-                            {
-                                "label": []
-                            }
-                        ]
-                    }
+                    "station_id": "LFLB_APP"
                 }
             ]
         },
@@ -197,6 +57,80 @@
                     "direction": "row",
                     "justify_content": "space-evenly",
                     "children": [
+                        {
+                            "label": [
+                                "PAR"
+                            ],
+                            "color": "azure",
+                            "size": 5,
+                            "page": {
+                                "rows": 4,
+                                "client_page": {
+                                    "include": [
+                                        "PAR_UT_CTR",
+                                        "PAR_LMH_CTR",
+                                        "PAR_LMHJ_CTR",
+                                        "PAR_DGTJ_CTR",
+                                        "PAR_RPAE_CTR",
+                                        "PAR_LOW_CTR",
+                                        "PAR_UJ_CTR",
+                                        "PAR_HP_CTR",
+                                        "PAR_CTR"
+                                    ],
+                                    "grouping": "None"
+                                }
+                            }
+                        },
+                        {
+                            "label": [
+                                "LFSB"
+                            ],
+                            "color": "cadet",
+                            "size": 5,
+                            "page": {
+                                "rows": 3,
+                                "keys": [
+                                    {
+                                        "label": [
+                                            "LFSB",
+                                            "C APP"
+                                        ],
+                                        "station_id": "LFSB_C_APP"
+                                    },
+                                    {
+                                        "label": [
+                                            "LFSB",
+                                            "APP"
+                                        ],
+                                        "station_id": "LFSB_APP"
+                                    },
+                                    {
+                                        "label": []
+                                    },
+                                    {
+                                        "label": [
+                                            "LFSB",
+                                            "TWR"
+                                        ],
+                                        "station_id": "LFSB_TWR"
+                                    },
+                                    {
+                                        "label": [
+                                            "LFSB",
+                                            "GND"
+                                        ],
+                                        "station_id": "LFSB_GND"
+                                    },
+                                    {
+                                        "label": [
+                                            "LFSB",
+                                            "DEL"
+                                        ],
+                                        "station_id": "LFSB_DEL"
+                                    }
+                                ]
+                            }
+                        },
                         {
                             "label": [
                                 "LFEE"
@@ -304,12 +238,120 @@
                             "children": [
                                 {
                                     "label": [
-                                        "LSAZ",
-                                        "N CTR"
+                                        "LSAG"
                                     ],
                                     "color": "lilac",
                                     "size": 6,
-                                    "station_id": "LSAZ_N_CTR"
+                                    "page": {
+                                        "rows": 2,
+                                        "keys": [
+                                            {
+                                                "label": [
+                                                    "LSAG",
+                                                    "CTR"
+                                                ],
+                                                "station_id": "LSAG_CTR"
+                                            },
+                                            {
+                                                "label": []
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSAG",
+                                                    "E CTR"
+                                                ],
+                                                "station_id": "LSAG_E_CTR"
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSAG",
+                                                    "S CTR"
+                                                ],
+                                                "station_id": "LSAG_S_CTR"
+                                            },
+                                            {
+                                                "label": []
+                                            },
+                                            {
+                                                "label": []
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSAG",
+                                                    "N CTR"
+                                                ],
+                                                "station_id": "LSAG_N_CTR"
+                                            },
+                                            {
+                                                "label": []
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "label": [
+                                        "LSAS",
+                                        "I_CTR"
+                                    ],
+                                    "color": "lilac",
+                                    "size": 6,
+                                    "station_id": "LSAZ_I_CTR"
+                                },
+                                {
+                                    "label": [
+                                        "LSAZ"
+                                    ],
+                                    "color": "lilac",
+                                    "size": 6,
+                                    "page": {
+                                        "rows": 2,
+                                        "keys": [
+                                            {
+                                                "label": [
+                                                    "LSAZ",
+                                                    "CTR"
+                                                ],
+                                                "station_id": "LSAZ_CTR"
+                                            },
+                                            {
+                                                "label": []
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSAZ",
+                                                    "W CTR"
+                                                ],
+                                                "station_id": "LSAZ_W_CTR"
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSAZ",
+                                                    "S CTR"
+                                                ],
+                                                "station_id": "LSAZ_S_CTR"
+                                            },
+                                            {
+                                                "label": []
+                                            },
+                                            {
+                                                "label": []
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSAZ",
+                                                    "N CTR"
+                                                ],
+                                                "station_id": "LSAZ_N_CTR"
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSAZ",
+                                                    "E CTR"
+                                                ],
+                                                "station_id": "LSAZ_E_CTR"
+                                            }
+                                        ]
+                                    }
                                 }
                             ]
                         },
@@ -319,21 +361,137 @@
                             "children": [
                                 {
                                     "label": [
-                                        "LSAZ",
-                                        "W CTR"
+                                        "LSGG"
                                     ],
-                                    "color": "lilac",
+                                    "color": "snow",
                                     "size": 6,
-                                    "station_id": "LSAZ_W_CTR"
+                                    "page": {
+                                        "rows": 3,
+                                        "keys": [
+                                            {
+                                                "label": [
+                                                    "LSGG",
+                                                    "APP"
+                                                ],
+                                                "station_id": "LSGG_APP"
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSGG",
+                                                    "F APP"
+                                                ],
+                                                "station_id": "LSGG_F_APP"
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSGG",
+                                                    "DEP"
+                                                ],
+                                                "station_id": "LSGG_DEP"
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSGG",
+                                                    "TWR"
+                                                ],
+                                                "station_id": "LSGG_TWR"
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSGG",
+                                                    "A GND"
+                                                ],
+                                                "station_id": "LSGG_A_GND"
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSGG",
+                                                    "GND"
+                                                ],
+                                                "station_id": "LSGG_GND"
+                                            }
+                                        ]
+                                    }
                                 },
                                 {
                                     "label": [
-                                        "LSAZ",
-                                        "CTR"
+                                        "LSGS"
                                     ],
-                                    "color": "lilac",
+                                    "color": "snow",
                                     "size": 6,
-                                    "station_id": "LSAZ_CTR"
+                                    "page": {
+                                        "rows": 3,
+                                        "keys": [
+                                            {
+                                                "label": [
+                                                    "LSGS",
+                                                    "APP"
+                                                ],
+                                                "station_id": "LSGS_APP"
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSGS",
+                                                    "TWR"
+                                                ],
+                                                "station_id": "LSGS_TWR"
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSGS",
+                                                    "GND"
+                                                ],
+                                                "station_id": "LSGS_GND"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "label": [
+                                        "LSZB",
+                                        "LSZG"
+                                    ],
+                                    "color": "snow",
+                                    "size": 6,
+                                    "page": {
+                                        "rows": 3,
+                                        "keys": [
+                                            {
+                                                "label": [
+                                                    "LSZB",
+                                                    "APP"
+                                                ],
+                                                "station_id": "LSZB_APP"
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSZB",
+                                                    "TWR"
+                                                ],
+                                                "station_id": "LSZB_TWR"
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSZB",
+                                                    "DEL"
+                                                ],
+                                                "station_id": "LSZB_DEL"
+                                            },
+                                            {
+                                                "label": [
+                                                    "LSZG",
+                                                    "TWR"
+                                                ],
+                                                "station_id": "LSZG_TWR"
+                                            },
+                                            {
+                                                "label": []
+                                            },
+                                            {
+                                                "label": []
+                                            }
+                                        ]
+                                    }
                                 },
                                 {
                                     "label": [
@@ -440,30 +598,6 @@
                                             }
                                         ]
                                     }
-                                },
-                                {
-                                    "label": [
-                                        "LSAZ",
-                                        "E CTR"
-                                    ],
-                                    "color": "lilac",
-                                    "size": 6,
-                                    "station_id": "LSAZ_E_CTR"
-                                }
-                            ]
-                        },
-                        {
-                            "direction": "row",
-                            "gap": 0.25,
-                            "children": [
-                                {
-                                    "label": [
-                                        "LSAZ",
-                                        "S CTR"
-                                    ],
-                                    "color": "lilac",
-                                    "size": 6,
-                                    "station_id": "LSAZ_S_CTR"
                                 }
                             ]
                         }
@@ -473,6 +607,27 @@
                     "direction": "row",
                     "justify_content": "space-evenly",
                     "children": [
+                        {
+                            "label": [
+                                "LFMM"
+                            ],
+                            "color": "azure",
+                            "size": 5,
+                            "page": {
+                                "rows": 6,
+                                "client_page": {
+                                    "include": [
+                                        "LFMM_W_CTR",
+                                        "LFMM_RAW_CTR",
+                                        "LFMM_EU_CTR",
+                                        "LFMM_U_CTR",
+                                        "LFMM_RAE_CTR",
+                                        "LFMM_CTR"
+                                    ],
+                                    "grouping": "None"
+                                }
+                            }
+                        },
                         {
                             "label": [
                                 "LIMM"
