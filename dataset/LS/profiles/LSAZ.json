@@ -288,7 +288,7 @@
                                 {
                                     "label": [
                                         "LSAZ",
-                                        "N_CTR"
+                                        "N CTR"
                                     ],
                                     "color": "lilac",
                                     "size": 6,
@@ -303,7 +303,7 @@
                                 {
                                     "label": [
                                         "LSAZ",
-                                        "W_CTR"
+                                        "W CTR"
                                     ],
                                     "color": "lilac",
                                     "size": 6,
@@ -427,7 +427,7 @@
                                 {
                                     "label": [
                                         "LSAZ",
-                                        "E_CTR"
+                                        "E CTR"
                                     ],
                                     "color": "lilac",
                                     "size": 6,
@@ -442,7 +442,7 @@
                                 {
                                     "label": [
                                         "LSAZ",
-                                        "S_CTR"
+                                        "S CTR"
                                     ],
                                     "color": "lilac",
                                     "size": 6,
@@ -458,8 +458,7 @@
                     "children": [
                         {
                             "label": [
-                                "LIMM",
-                                "CTR"
+                                "LIMM"
                             ],
                             "color": "mint",
                             "size": 5,
@@ -520,8 +519,7 @@
                         },
                         {
                             "label": [
-                                "LIPP",
-                                "CTR"
+                                "LIPP"
                             ],
                             "color": "mint",
                             "size": 5,
