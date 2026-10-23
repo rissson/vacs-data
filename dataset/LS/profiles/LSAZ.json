@@ -11,77 +11,117 @@
       "justify_content": "space-evenly",
       "children": [
         {
-          "label": ["LFSB"],
+          "label": [
+            "LFSB"
+          ],
           "color": "cadet",
           "size": 5,
           "page": {
             "rows": 3,
             "keys": [
               {
-                "label": ["LFSB", "C APP"],
+                "label": [
+                  "LFSB",
+                  "C APP"
+                ],
                 "station_id": "LFSB_C_APP"
               },
               {
-                "label": ["LFSB", "APP"],
+                "label": [
+                  "LFSB",
+                  "APP"
+                ],
                 "station_id": "LFSB_APP"
               },
               {
                 "label": []
               },
               {
-                "label": ["LFSB", "TWR"],
+                "label": [
+                  "LFSB",
+                  "TWR"
+                ],
                 "station_id": "LFSB_TWR"
               },
               {
-                "label": ["LFSB", "GND"],
+                "label": [
+                  "LFSB",
+                  "GND"
+                ],
                 "station_id": "LFSB_GND"
               },
               {
-                "label": ["LFSB", "DEL"],
+                "label": [
+                  "LFSB",
+                  "DEL"
+                ],
                 "station_id": "LFSB_DEL"
               }
             ]
           }
         },
         {
-          "label": ["LSAS"],
+          "label": [
+            "LSAS"
+          ],
           "color": "blush",
           "size": 5,
           "page": {
             "rows": 2,
             "keys": [
               {
-                "label": ["LSAS", "CTR"],
+                "label": [
+                  "LSAS",
+                  "CTR"
+                ],
                 "station_id": "LSAS_CTR"
               },
               {
-                "label": ["LSAS", "I_CTR"],
+                "label": [
+                  "LSAS",
+                  "I_CTR"
+                ],
                 "station_id": "LSAS_I_CTR"
               }
             ]
           }
         },
         {
-          "label": ["LSZB", "LSZG"],
+          "label": [
+            "LSZB",
+            "LSZG"
+          ],
           "color": "snow",
           "size": 5,
           "page": {
             "rows": 3,
             "keys": [
               {
-                "label": ["LSZB", "APP"],
+                "label": [
+                  "LSZB",
+                  "APP"
+                ],
                 "station_id": "LSZB_APP"
               },
               {
-                "label": ["LSZB", "TWR"],
+                "label": [
+                  "LSZB",
+                  "TWR"
+                ],
                 "station_id": "LSZB_TWR"
               },
               {
-                "label": ["LSZB", "DEL"],
+                "label": [
+                  "LSZB",
+                  "DEL"
+                ],
                 "station_id": "LSZB_DEL"
               },
               {
-                "label": ["LSZG", "TWR"],
+                "label": [
+                  "LSZG",
+                  "TWR"
+                ],
                 "station_id": "LSZG_TWR"
               },
               {
@@ -94,25 +134,36 @@
           }
         },
         {
-          "label": ["LSAG"],
+          "label": [
+            "LSAG"
+          ],
           "color": "blush",
           "size": 5,
           "page": {
             "rows": 2,
             "keys": [
               {
-                "label": ["LSAG", "CTR"],
+                "label": [
+                  "LSAG",
+                  "CTR"
+                ],
                 "station_id": "LSAG_CTR"
               },
               {
                 "label": []
               },
               {
-                "label": ["LSAG", "E CTR"],
+                "label": [
+                  "LSAG",
+                  "E CTR"
+                ],
                 "station_id": "LSAG_E_CTR"
               },
               {
-                "label": ["LSAG", "S CTR"],
+                "label": [
+                  "LSAG",
+                  "S CTR"
+                ],
                 "station_id": "LSAG_S_CTR"
               },
               {
@@ -122,7 +173,10 @@
                 "label": []
               },
               {
-                "label": ["LSAG", "N CTR"],
+                "label": [
+                  "LSAG",
+                  "N CTR"
+                ],
                 "station_id": "LSAG_N_CTR"
               },
               {
@@ -144,7 +198,9 @@
           "justify_content": "space-evenly",
           "children": [
             {
-              "label": ["LFEE"],
+              "label": [
+                "LFEE"
+              ],
               "color": "azure",
               "size": 5,
               "page": {
@@ -170,7 +226,9 @@
               }
             },
             {
-              "label": ["EDGG"],
+              "label": [
+                "EDGG"
+              ],
               "color": "clay",
               "size": 5,
               "page": {
@@ -193,7 +251,9 @@
               }
             },
             {
-              "label": ["EDUU"],
+              "label": [
+                "EDUU"
+              ],
               "color": "clay",
               "size": 5,
               "page": {
@@ -212,7 +272,9 @@
               }
             },
             {
-              "label": ["EDMM"],
+              "label": [
+                "EDMM"
+              ],
               "color": "clay",
               "size": 5,
               "page": {
@@ -241,7 +303,10 @@
               "gap": 0.25,
               "children": [
                 {
-                  "label": ["LSAZ", "N CTR"],
+                  "label": [
+                    "LSAZ",
+                    "N CTR"
+                  ],
                   "color": "lilac",
                   "size": 6,
                   "station_id": "LSAZ_N_CTR"
@@ -253,60 +318,105 @@
               "gap": 0.25,
               "children": [
                 {
-                  "label": ["LSAZ", "W CTR"],
+                  "label": [
+                    "LSAZ",
+                    "W CTR"
+                  ],
                   "color": "lilac",
                   "size": 6,
                   "station_id": "LSAZ_W_CTR"
                 },
                 {
-                  "label": ["LSAZ", "CTR"],
+                  "label": [
+                    "LSAZ",
+                    "CTR"
+                  ],
                   "color": "lilac",
                   "size": 6,
                   "station_id": "LSAZ_CTR"
                 },
                 {
-                  "label": ["LSZH"],
+                  "label": [
+                    "LSZH"
+                  ],
                   "color": "snow",
                   "size": 6,
                   "page": {
                     "rows": 3,
                     "keys": [
                       {
-                        "label": ["LSZH", "APP"],
+                        "label": [
+                          "LSZH",
+                          "APP"
+                        ],
                         "station_id": "LSZH_APP"
                       },
                       {
-                        "label": ["LSZH", "W APP"],
+                        "label": [
+                          "LSZH",
+                          "W APP"
+                        ],
                         "station_id": "LSZH_W_APP"
                       },
                       {
-                        "label": ["LSZH", "DEP"],
+                        "label": [
+                          "LSZH",
+                          "F APP"
+                        ],
+                        "station_id": "LSZH_F_APP"
+                      },
+                      {
+                        "label": [
+                          "LSZH",
+                          "DEP"
+                        ],
                         "station_id": "LSZH_DEP"
                       },
                       {
-                        "label": ["LSZH", "TWR"],
+                        "label": []
+                      },
+                      {
+                        "label": []
+                      },
+                      {
+                        "label": [
+                          "LSZH",
+                          "TWR"
+                        ],
                         "station_id": "LSZH_TWR"
                       },
                       {
-                        "label": ["LSZH", "TWR 2"],
+                        "label": [
+                          "LSZH",
+                          "TWR 2"
+                        ],
                         "station_id": "LSZH_2_TWR"
                       },
                       {
                         "label": []
                       },
                       {
-                        "label": ["LSZH", "S GND"],
+                        "label": [
+                          "LSZH",
+                          "S GND"
+                        ],
                         "station_id": "LSZH_S_GND"
                       },
                       {
-                        "label": ["LSZH", "N GND"],
+                        "label": [
+                          "LSZH",
+                          "N GND"
+                        ],
                         "station_id": "LSZH_N_GND"
                       },
                       {
                         "label": []
                       },
                       {
-                        "label": ["LSZH", "DEL"],
+                        "label": [
+                          "LSZH",
+                          "DEL"
+                        ],
                         "station_id": "LSZH_DEL"
                       },
                       {
@@ -325,11 +435,17 @@
                         "label": []
                       },
                       {
-                        "label": ["LSMD", "APP"],
+                        "label": [
+                          "LSMD",
+                          "APP"
+                        ],
                         "station_id": "LSMD_APP"
                       },
                       {
-                        "label": ["LSMD", "TWR"],
+                        "label": [
+                          "LSMD",
+                          "TWR"
+                        ],
                         "station_id": "LSMD_TWR"
                       },
                       {
@@ -339,7 +455,10 @@
                   }
                 },
                 {
-                  "label": ["LSAZ", "E CTR"],
+                  "label": [
+                    "LSAZ",
+                    "E CTR"
+                  ],
                   "color": "lilac",
                   "size": 6,
                   "station_id": "LSAZ_E_CTR"
@@ -351,7 +470,10 @@
               "gap": 0.25,
               "children": [
                 {
-                  "label": ["LSAZ", "S CTR"],
+                  "label": [
+                    "LSAZ",
+                    "S CTR"
+                  ],
                   "color": "lilac",
                   "size": 6,
                   "station_id": "LSAZ_S_CTR"
@@ -365,7 +487,9 @@
           "justify_content": "space-evenly",
           "children": [
             {
-              "label": ["LIMM"],
+              "label": [
+                "LIMM"
+              ],
               "color": "mint",
               "size": 5,
               "page": {
@@ -385,33 +509,49 @@
               }
             },
             {
-              "label": ["LSZA"],
+              "label": [
+                "LSZA"
+              ],
               "color": "snow",
               "size": 5,
               "page": {
                 "rows": 2,
                 "keys": [
                   {
-                    "label": ["LIMM", "ANE APP"],
+                    "label": [
+                      "LIMM",
+                      "ANE APP"
+                    ],
                     "station_id": "LIMM-ANE"
                   },
                   {
-                    "label": ["LIMM", "ANW APP"],
+                    "label": [
+                      "LIMM",
+                      "ANW APP"
+                    ],
                     "station_id": "LIMM-ANW"
                   },
                   {
-                    "label": ["LSZA", "TWR"],
+                    "label": [
+                      "LSZA",
+                      "TWR"
+                    ],
                     "station_id": "LSZA_TWR"
                   },
                   {
-                    "label": ["LSZA", "DEL"],
+                    "label": [
+                      "LSZA",
+                      "DEL"
+                    ],
                     "station_id": "LSZA_DEL"
                   }
                 ]
               }
             },
             {
-              "label": ["LIPP"],
+              "label": [
+                "LIPP"
+              ],
               "color": "mint",
               "size": 5,
               "page": {
@@ -445,43 +585,64 @@
           "justify_content": "space-evenly",
           "children": [
             {
-              "label": ["EDJA"],
+              "label": [
+                "EDJA"
+              ],
               "color": "clay",
               "size": 5,
               "page": {
                 "rows": 2,
                 "keys": [
                   {
-                    "label": ["EDJA", "ILR APP"],
+                    "label": [
+                      "EDJA",
+                      "ILR APP"
+                    ],
                     "station_id": "EDMM-ILR"
                   },
                   {
-                    "label": ["EDMM", "SWA APP"],
+                    "label": [
+                      "EDMM",
+                      "SWA APP"
+                    ],
                     "station_id": "EDMM-SWA"
                   }
                 ]
               }
             },
             {
-              "label": ["ARFA", "LSZR", "EDNY"],
+              "label": [
+                "ARFA",
+                "LSZR",
+                "EDNY"
+              ],
               "color": "snow",
               "size": 5,
               "page": {
                 "rows": 2,
                 "keys": [
                   {
-                    "label": ["LSFA", "APP"],
+                    "label": [
+                      "LSFA",
+                      "APP"
+                    ],
                     "station_id": "LSFA_APP"
                   },
                   {
                     "label": []
                   },
                   {
-                    "label": ["LSZR", "TWR"],
+                    "label": [
+                      "LSZR",
+                      "TWR"
+                    ],
                     "station_id": "LSZR_TWR"
                   },
                   {
-                    "label": ["EDNY", "TWR"],
+                    "label": [
+                      "EDNY",
+                      "TWR"
+                    ],
                     "station_id": "EDNY-TWR"
                   }
                 ]
@@ -501,23 +662,34 @@
           "justify_content": "end",
           "children": [
             {
-              "label": ["Majors"],
+              "label": [
+                "Majors"
+              ],
               "size": 5,
               "page": {
                 "rows": 6,
                 "client_page": {
-                  "include": ["LSGG*"],
+                  "include": [
+                    "LSGG*"
+                  ],
                   "grouping": "Icao"
                 }
               }
             },
             {
-              "label": ["Minors"],
+              "label": [
+                "Minors"
+              ],
               "size": 5,
               "page": {
                 "rows": 6,
                 "client_page": {
-                  "include": ["LS*_APP", "LS*_TWR", "LS*_GND", "LS*_DEL"],
+                  "include": [
+                    "LS*_APP",
+                    "LS*_TWR",
+                    "LS*_GND",
+                    "LS*_DEL"
+                  ],
                   "exclude": [
                     "LSFA*",
                     "LSGG*",
@@ -533,18 +705,24 @@
               }
             },
             {
-              "label": ["MIL"],
+              "label": [
+                "MIL"
+              ],
               "size": 5,
               "page": {
                 "rows": 6,
                 "client_page": {
-                  "include": ["LSM*"],
+                  "include": [
+                    "LSM*"
+                  ],
                   "grouping": "Icao"
                 }
               }
             },
             {
-              "label": ["CWP"],
+              "label": [
+                "CWP"
+              ],
               "size": 5,
               "page": {
                 "rows": 6,
@@ -560,7 +738,9 @@
                     "LIP*",
                     "LO*"
                   ],
-                  "exclude": ["LON*"],
+                  "exclude": [
+                    "LON*"
+                  ],
                   "priority": [
                     "LS*_FMP",
                     "*_FMP",
