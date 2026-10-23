@@ -10,7 +10,7 @@
           {
             "label": ["FMP"],
             "color": "lilac",
-            "station_id": "LFXX_FMP"
+            "station_id": "LFRR_FMP"
           },
           {
             "label": ["LFRR", "V"],
@@ -69,9 +69,9 @@
             "station_id": "LFRN_TWR"
           },
           {
-            "label": ["LFFF", "TM"],
+            "label": ["LFFF", "TP"],
             "color": "taupe",
-            "station_id": "PAR_TM"
+            "station_id": "PAR_TP"
           },
           {
             "label": ["LFFF", "TH"],
@@ -99,7 +99,7 @@
           {
             "label": ["LFRN", "DD"],
             "color": "azure",
-            "station_id": "LFRH_APP"
+            "station_id": "LFRN_DD_APP"
           },
           {
             "label": ["LFRS", "LU"],
@@ -127,7 +127,7 @@
           {
             "label": ["LFRN", "RN"],
             "color": "azure",
-            "station_id": "LFRB_APP"
+            "station_id": "LFRN_APP"
           },
           {
             "label": ["LFQQ", "QD"],

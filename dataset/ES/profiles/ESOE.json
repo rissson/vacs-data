@@ -25,7 +25,16 @@
             "label": []
           },
           {
-            "label": ["IA", "APP"],
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": []
+          },
+          {
+            "label": ["IA", "T6"],
             "station_id": "ESIA_APP"
           },
           {
